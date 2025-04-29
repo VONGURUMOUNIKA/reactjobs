@@ -24,11 +24,11 @@ if(!showFullDescription) {
                 <div className="mb-5">
                   {description}
                 </div>
-                <button onClick={() => setShowFullDescription((prevState)=> !prevState)} className='text-indigo-500 mb-5  hover:text-indigo-60'>
+                <button onClick={() => setShowFullDescription((prevState)=> !prevState)} className='text-teal-500 mb-5  hover:text-indigo-60'>
                     {showFullDescription ? 'Less' : 'More'}
                 </button>
             
-                <h3 className="text-indigo-500 mb-2">{job.salary} / Year</h3>
+                <h3 className="text-teal-500 mb-2">{job.salary} / Year</h3>
                 <div className="border border-gray-100 mb-5"></div>
                 <div className="flex flex-col lg:flex-row justify-between mb-4">
                   <div className="text-orange-700 mb-3">
@@ -36,8 +36,8 @@ if(!showFullDescription) {
                     {job.location}
                   </div>
                   <Link
-                    to={`/job/${job.id}`}
-                    className="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                    to={`/jobs/${job.id}`}
+                    className="h-[36px] bg-teal-950 hover:bg-teal-600 text-white px-4 py-2 rounded-lg text-center text-sm"
                   >
                     Read More
                   </Link>
