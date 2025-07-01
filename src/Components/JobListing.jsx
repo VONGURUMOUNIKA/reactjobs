@@ -15,6 +15,7 @@ if(!showFullDescription) {
 
 
   return (
+    //   TODO: finish this job
     <div key={job.id} className="bg-white rounded-xl shadow-md relative">
               <div className="p-4">
                 <div className="mb-6">
