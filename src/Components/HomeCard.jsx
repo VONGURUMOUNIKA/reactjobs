@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Card = ({ children, bg = 'bg-cyan-100' }) => {
+const HomeCard = ({ children, bg = 'bg-cyan-100' }) => {
   return (
     <div className={` ${bg} p-6 rounded-lg shadow-md`}>
         {children}
     </div>
+
+  //     TODO: Complete creating children cards
   )
 }
 
-export default Card
+export default HomeCard
