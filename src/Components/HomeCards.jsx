@@ -23,7 +23,7 @@ const HomeCards = () => {
         <Card bg='bg-teal-200'> 
         <h2 className="text-2xl font-bold">For Recruiters</h2>
           <p className="mt-2 mb-4">
-            List your job to find the perfect developer for the role
+            List your job to find the perfect candidate for the role
           </p>
           <Link
             to="/add-job"
